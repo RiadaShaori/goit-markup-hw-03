@@ -30,6 +30,12 @@ body {
     color: var(--primary-text-color);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -203,10 +209,13 @@ body {
 
 /* Features section */
 
+.features-title {
+    display: none;
+}
+
 .features-list {
     display: flex;
 }
-
 
 .features-list-title {
     font-weight: 700;
@@ -241,6 +250,11 @@ body {
     display: flex;
 }
 
+.team-members{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
 
 .team-member-name {
     margin-top: 30px;
@@ -300,10 +314,14 @@ footer {
 
 /* CSS for portfolio.html */
 
+.portfolio-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .btn {
     display: inline-block;
-    height: 50px;
-    padding: 10px 32px;
+    height: 38px;
+    padding: 6px 22px;
     border: 1px solid transparent;
     border-radius: 4px;
 
@@ -340,6 +358,12 @@ footer {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+}
+
+.gallery-text {
+    padding: 20px 24px;
+    text-align: left;
+    border: 1px solid #EEEEEE;
 }
 
 .gallery-item {
